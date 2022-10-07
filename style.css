@@ -1,0 +1,35 @@
+body{
+    background: hsl(217, 54%, 11%);
+}
+
+#card{
+    position: absolute;
+    
+    left:545px;
+    top:152px;
+    bottom:152px;
+
+    width: 350px;
+    height: 596px;
+
+    background: hsl(216, 50%, 16%);
+    box-shadow: 0px 25px 50px rgba(0, 0, 0, 0.0952917);
+    border-radius: 15px;
+
+}
+
+
+#image{
+    width: 302px;
+    margin: 24px 24px 0 24px;
+}
+
+.white{
+    color:white;
+}
+.soft-blue{
+    color:hsl(215, 51%, 70%);
+}
+.cyan{
+    color: hsl(178, 100%, 50%);
+}
