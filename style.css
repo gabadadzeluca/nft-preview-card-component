@@ -28,19 +28,41 @@ body{
 }
 
 #image{
+    position: relative;
     width: 302px;
     margin: 24px 24px 0 24px;
     border-radius: 8px;
+    background-color: transparent;
 }
+
+.overlay{
+    position: absolute;
+    display: flex;
+    width: 302px;
+    height: 302px;
+    background-color: aqua;
+    bottom:350px;
+    overflow: hidden;
+    border-radius: 8px;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+}
+
+.overlay:hover{
+    opacity: 0.8
+}
+
 
 #title-text{
     font-weight: 600;
     font-size: 22px;
     width: 302px;
     height: 28px;
-
     margin: 24px 24px 0 24px;
-
+}
+#title-text:hover{
+    color: aqua;
 }
 
 #main-text{
@@ -101,6 +123,13 @@ body{
 .creator-text{
     margin-left: 6px;
 }
+
+span.white:hover{
+    color: aqua;
+}
+
+
+
 
 
 
