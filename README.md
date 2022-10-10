@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [https://github.com/gabadadzeluca/nft-preview-card-component]()
-- Live Site URL: [https://gabadadzeluca.github.io/nft-preview-card-component]()
+- Live Site URL: [https://gabadadzeluca.github.io/nft-preview-card-component/]()
 
 ## My process
 
