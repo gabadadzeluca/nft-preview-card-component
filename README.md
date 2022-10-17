@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](nft-card-screenshot.png)
+![Old version](nft-card-screenshot.png)
 
 
 ### Links
