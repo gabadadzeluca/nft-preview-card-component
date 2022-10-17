@@ -79,7 +79,7 @@ body{
     color: var(--cyan);
 }
 #time-text{
-    font-size: 15px;
+    font-size: 0.9375rem;
     color: var(--soft-blue);
     font-weight: var(--normal);
 }
@@ -113,4 +113,48 @@ a:hover{
 /* TEMPORARY*/
 .overlay{
     display: none;
+}
+
+
+@media screen and (min-width: 1400px) {
+    .container{
+        width: 21.875rem;
+        height: 37.25rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .card{
+        margin: 0;
+        width: 18.875rem;
+    }
+    #image{
+        width: 18.875rem;
+        height: 18.875rem;
+    }
+    #price-text, #time-text{
+        font-size: 1rem;
+    }
+
+    .overlay{
+        background-color: var(--cyan);
+        width: 302px;
+        height: 302px;
+        display: block;
+        opacity: 0;
+        position: absolute;
+        overflow: hidden;
+        border-radius: 0.5rem;
+    }
+    .overlay img{
+        margin-left: 129px;
+        margin-top: 136px;
+    }
+
+    .overlay:hover{
+        cursor: pointer;
+        opacity: 0.6;
+    }
 }
